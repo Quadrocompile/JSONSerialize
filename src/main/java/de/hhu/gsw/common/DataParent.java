@@ -19,7 +19,7 @@ public class DataParent {
     @Override
     public String toString(){
         StringBuilder sb = new StringBuilder();
-        sb.append("DataChild:").append("\n");
+        sb.append("DataParent:").append("\n");
         sb.append("  IntValue: ").append(intValue).append("\n");
         sb.append("  StringValue: ").append(stringValue).append("\n");
         sb.append("  StringToStringMap: ").append("\n");
