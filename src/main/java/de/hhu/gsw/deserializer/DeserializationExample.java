@@ -18,9 +18,18 @@ public class DeserializationExample {
         // Deserialize the Data object
         Data data = Data.deserializeFromJSON(json);
 
+        /*
+        //TODO @Task7: Implement deserializeFromJSON factory function for DataParent and its nested class DataChild. Deserialize DataParent from disk
+        DataParent dataParent = DataParent.deserializeFromJSON(json);
+         */
+
         // Print data after deserialization
         System.out.println("[After deserialization]");
         System.out.println(data.toString());
+        /*
+        //TODO @Task7: Uncomment lines
+        System.out.println(dataParent.toString());
+         */
     }
 
     private static JSONObject readJSONFromFile(String fileName) throws IOException{

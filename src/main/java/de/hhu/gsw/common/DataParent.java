@@ -32,4 +32,16 @@ public class DataParent {
         return sb.toString();
     }
 
+    /*
+    //TODO @Task7: Implement
+
+    public JSONObject serializeToJSON(){
+        ...
+    }
+
+    public static DataParent deserializeFromJSON(JSONObject json){
+        ...
+    }
+     */
+
 }

@@ -26,4 +26,16 @@ public class DataChild {
         }
         return sb.toString();
     }
+
+     /*
+    //TODO @Task7: Implement
+
+    public JSONObject serializeToJSON(){
+        ...
+    }
+
+    public static DataChild deserializeFromJSON(JSONObject json){
+        ...
+    }
+     */
 }
